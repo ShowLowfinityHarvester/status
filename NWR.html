@@ -193,6 +193,10 @@
             background-color: #FF5252;
         }
 
+        .status.soon {
+            background-color: #7a7a7a;
+        }        
+
         .details {
             font-size: 14px;
             color: #d0d0d0;
@@ -360,9 +364,9 @@
       <div class="status green">Online</div>
       <p class="details"><strong>Transmitter Type:</strong> VHF Cell Wireless Transmitter</p>
       <p class="details"><strong>Location:</strong> Phoenix, AZ</p>
-      <p class="details"><strong>Streamed With:</strong> RTL-SDR V4 (Installed: January 7, 2024)</p>
+      <p class="details"><strong>Streamed With:</strong> RTL-SDR V4</p>
       <p class="description">
-        KEC94 covers the Phoenix, Arizona area on 162.550 MHz and serves all of Maricopa and Northwest Pinal counties. This station is operated by NWS Phoenix, anf is located on South Mountain Ahwatukee. Upgraded to a VHF cell wireless transmitter on February 25, 2025, it features a characteristic bit-crushed sound with a faint 60Hz background noise. Travelers’ forecasts are broadcast within the top of each hour 15, 30, and 45 minutes past each hour. This stream originates from our Arizona studio using an RTL-SDR V4 and a KB9VBR antenna. 
+        KEC94 covers the Phoenix, Arizona area on 162.550 MHz and serves all of Maricopa and Northwest Pinal counties. This station is operated by NWS Phoenix, and is located on South Mountain Ahwatukee. Upgraded to a VHF cell wireless transmitter on February 25, 2025, it features a characteristic bit-crushed sound with a faint 60Hz background noise. Travelers’ forecasts are broadcast within the top of each hour 15, 30, and 45 minutes past each hour (currently not available due to its programming being wiped out during AWIPS upgrade). This stream originates from our Arizona studio using an RTL-SDR V4 and a KB9VBR antenna. 
       </p>
     </div>
 
@@ -373,7 +377,7 @@
       <p class="details"><strong>Location:</strong> Payson, AZ</p>
       <p class="details"><strong>Streamed With:</strong> RTL-SDR V4</p>
       <p class="description">
-        WWG41 covers the Payson, Arizona area on 162.425 MHz and serves the northern Gila county region covered by NWS flagstaff, and the Southern Gila and Maricopa county region covered by NWS Phoenix (Only for flood advisory and warning products). This station is Operated by NWS Flagstaff and is located on Mount Ord somewhere near the Gila and Maricopa county boarder. It switched to a VHF cell wireless transmitter in April 2023, replacing it's notoriously poor UHF codec. Expect bit-crushed audio and a subtle 60Hz hum in the background. No hourly observations for Payson or climate summaries are broadcast (as this is a region based station), so we recommend to check weather.gov for all of that info. WWG41 is streamed from our Arizona studio with an RTL-SDR V4 (2024) and KB9VBR antenna.
+        WWG41 covers the Payson, Arizona area on 162.425 MHz and serves the northern Gila county region covered by NWS flagstaff, and the Southern Gila and Maricopa county region covered by NWS Phoenix (Only for flood advisory and warning products). This station is Operated by NWS Flagstaff and is located on Mount Ord somewhere near the Gila and Maricopa county boarder. It switched to a VHF cell wireless transmitter in April 2023, replacing it's notoriously poor UHF codec. Expect bit-crushed audio and a subtle 60Hz hum in the background. No hourly observations for Payson or climate summaries are broadcast (as this is a region based station), so we recommend to check weather.gov for all of that info. WWG41 is streamed from our Arizona studio with an RTL-SDR V4 and KB9VBR antenna.
       </p>
     </div>
 
@@ -384,7 +388,7 @@
       <p class="details"><strong>Location:</strong> Globe, AZ</p>
       <p class="details"><strong>Streamed With:</strong> RTL-SDR V4</p>
       <p class="description">
-        WWG42 serves the Globe, Arizona area on 162.500 MHz, and serves Southern Gila county, with additional coverage for Northwest Pinal county. This station is operated by NWS Phoenix and is located somewhere on Signal Peak. It broadcasts on a UHF wireless transmitter that was installed in the 90s. It delivers very poor audio with heavy background static, as it receives its audio from another transmitter on 413.500 MHz. Coverage is spotty, and it lacks hourly observations for the globe area, climate summaries, and the PSR travelers’ forecast. Visit weather.gov for all of that info. WWG42 is streamed from our Arizona studio with an RTL-SDR V4 (2024) and KB9VBR antenna.
+        WWG42 covers the Globe, Arizona area on 162.500 MHz, and serves Southern Gila county, with additional coverage for Northwest Pinal county. This station is operated by NWS Phoenix and is located somewhere on Signal Peak. It broadcasts on a UHF wireless transmitter that was installed in the 90s. It delivers very poor audio with heavy background static, as it receives its audio from another transmitter on 413.500 MHz. Coverage is spotty, and it lacks hourly observations for the globe area, climate summaries, and the PSR travelers’ forecast. Visit weather.gov for all of that info. WWG42 is streamed from our Arizona studio with an RTL-SDR V4 and KB9VBR antenna.
       </p>
     </div>
 
@@ -395,12 +399,102 @@
       <p class="details"><strong>Location:</strong> Yuma, AZ / Imperial Valley, CA</p>
       <p class="details"><strong>Streamed With:</strong> RTL-SDR V4</p>
       <p class="description">
-        WXL87 serves the Yuma, Arizona, and Imperial Valley, California, on 162.550 MHz, and serves La Paz and Yuma counties in Arizona, and Imperial and Eastern Riverside counties in California. This station is operated by NWS Phoenix, and is located on Black Mountain, CA. Its VHF cell wireless transmitter (installed June 2023) has limited range for the area it serves. This station has that bit-crushed audio and a 60Hz hum. Travelers forecasts play every 15 minutes from the hour (currently not available). WXL7 is streamed from our California studio with an RTL-SDR V4 and KB9VBR antenna, signal quality varies due to environmental factors like wind or lightning. Transmitter range and signal interference is a major problem here but we are working the best we can to resolve this issue.
+        WXL87 covers the Yuma, Arizona areas, and Imperial Valley, California, on 162.550 MHz, and serves La Paz and Yuma counties in Arizona, and Imperial and Eastern Riverside counties in California. This station is operated by NWS Phoenix, and is located on Black Mountain, CA. Its VHF cell wireless transmitter (installed June 2023) has limited range for the area it serves. This station has that bit-crushed audio and a 60Hz hum. Travelers forecasts play every 15 minutes from the hour (currently not available). WXL87 is streamed from our California studio with an RTL-SDR V4 and KB9VBR antenna, signal quality varies due to environmental factors like wind or lightning. Transmitter range and signal interference is a major problem here but we are working the best we can to resolve this issue.
       </p>
     </div>
 
+    <div class="station">
+      <div class="station-header">KIG66 - NOAA Weather Radio</div>
+      <div class="status soon">Coming Soon</div>
+      <p class="details"><strong>Transmitter Type:</strong> Copper Phoneliine Transmitter</p>
+      <p class="details"><strong>Location:</strong> Marquette, MI / Lake Superior</p>
+      <p class="details"><strong>Streamed With:</strong> RTL-SDR V4</p>
+      <p class="description">
+        KIG66 covers the Marquette, Michigan area, and portions of Lake Superior, on 162.550 MHz, and serves Alger, Baraga, Delta, Dickinson, Iron, Marquette, Menominee, and Schoolcraft counties in Upper Michigan, and the following marine locations: Huron Islands to Marquette MI, Lake Superior East of a line from Manitou Island to Marquette MI and West of a line from Grand Marais MI to the US/Canadian Border Beyond 5NM from shore, Lake Superior West of Line from Manitou Island to Marquette MI Beyond 5NM from shore, and Marquette to Munising MI. This station is operated by NWS Marquette, and is located in Negaunee, MI. It broadcasts on a copper phoneline transmitter and has a distorted sound with a 60Hz background noise. Marine forecasts play at the top and bottom of the hour. KIG66 will be streamed from our Upper Michigan studio with an RTL-SDR V4 and KB9VBR antenna.
+      </p>
+    </div>    
+
+<div class="content">
+    <h1>Office Details and Quirks</h1>
+
+    <div class="station">
+      <div class="station-header">Phoenix, Arizona</div>
+      <div class="status soon">PSR</div>
+      <p class="details"><strong>Located:</strong> Tempe, AZ</p>
+      <p class="details"><strong>Number of Transmitters:</strong> 3</p>
+      <p class="details"><strong>Voice Speed:</strong> 103</p>
+      <p class="details"><strong>Quirks:</strong></p>
+      <p class="description">
+        This office has a Travelers forecast that plays every 15 minutes starting from the bottom of the hour (or at least had it anyway, AWIPS update wiped out its programming)</p>
+      <p class="description">
+        This office does not read Key Messages and sometimes formats them weirdly in their AFD's</p>
+      <p class="description">
+        This office issues alerts for the tiniest portion of San Bernardino County but none of PSR's stations relay it, only VEF.</p>   
+    </div>
+
+    <div class="station">
+      <div class="station-header">Flagstaff, Arizona</div>
+      <div class="status soon">FGZ</div>
+      <p class="details"><strong>Located:</strong> Bellmont, AZ</p>
+      <p class="details"><strong>Number of Transmitters:</strong> 6</p>
+      <p class="details"><strong>Voice Speed:</strong> 115</p>
+      <p class="details"><strong>Quirks:</strong></p>
+      <p class="description">
+      All transmitters are region based</p>
+      <p class="description">
+        This office does not SAME tone convective watches, only 1050.</p>
+      <p class="description">
+        WWG41 tones alerts from PSR for Maricopa and Gila county on WWG41, but it is only for codes FLY, FLW-R, FLW-A, and FFW.</p>
+      <p class="description">
+        Station ID's only play once every hour.</p>                    
+    </div> 
+
+    <div class="station">
+      <div class="station-header">Marquette, Michigan</div>
+      <div class="status soon">MQT</div>
+      <p class="details"><strong>Located:</strong> Neguanee, MI</p>
+      <p class="details"><strong>Number of Transmitters:</strong> 10</p>
+      <p class="details"><strong>Voice Speed:</strong> 110</p>
+      <p class="details"><strong>Quirks:</strong></p>
+      <p class="description">
+      This office does not read Precationary Prepardness actions on most products.</p>
+      <p class="description">
+        This office does not read Key Messages or Hazardous Weather Outlooks.</p>
+      <p class="description">
+        There are silent hours for certain products like SMW, and WSW.</p>
+      <p class="description">
+        The WZ2514 and WZ1515 simulcast is not in sync.</p>                    
+    </div>
+    
     <div class="updates">
       <h2>Latest Updates</h2>
+
+      <div class="updates-thingy">
+        <p class="update-date">New Weather Radio Steam Coming Late June 2025</p>
+        <p>The WSLF Radio Southwest and Midwest divisons are happy to announce that they are bringing KIG66 in Marquette, Michigan to streaming platforms on the internet (mainly broadcastify)! </p> 
+          <br><br>
+          This has been a requested stream for years now, and we finally have the equipment to run a stream! KIG66 broadcasts on a distorted copper phoneline transmitter ona a frequency of 162.550 Mhz, in Neguanee (which is near Marquette).
+        </p>
+      </div>
+
+    <div class="updates">
+      <h2>Latest Updates</h2>
+
+      <div class="updates-thingy">
+        <p class="update-date">New Weather Radio Steam Coming Late June 2025</p>
+        <p>The WSLF Radio Southwest and Midwest divisons are happy to announce that they are bringing KIG66 in Marquette, Michigan to streaming platforms on the internet (mainly broadcastify)! </p> 
+          <br><br>
+          This has been a requested stream for years now, and we finally have the equipment to run a stream! KIG66 broadcasts on a distorted copper phoneline transmitter ona a frequency of 162.550 Mhz, in Neguanee (which is near Marquette).
+        </p>
+      </div>
+
+      <div class="updates-thingy">
+        <p class="update-date">AWIPS System Upgrade to Impact NWS Flagstaff Services 2025</p>
+        <p>The National Weather Service office in Flagstaff, Arizona (FGZ) will undergo scheduled AWIPS (Advanced Weather Interactive Processing System) upgrades beginning Monday, June 2, 2025, through Wednesday, June 4, 2025. This is part of a national upgrade program affecting NWS offices across the United States. During this period, some services and products may be temporarily unavailable or handled by backup offices. This includes NOAA Weather Radio transmitters WXK76 (Flagstaff, AZ), WWG41 (Payson, AZ), KXI23 (Greens Peak, AZ), WWF52 (Grand Canyon, AZ), WWF98 (Prescott, AZ), and WWF99 (Window Rock, AZ / Gallup, NM). Based on similar recent upgrades at other offices (such as PSR and TWC), it is expected that the NOAA Weather Radio transmitters will broadcast an off the air message stored in the AWIPS system during the outage. </p> 
+          <br><br>
+          WSLF Radio issued weather products will not be affected during this time. A severe weather event will be happening in the FGZ CWA during this time. For the latest weather information, please visit weather.gov/fgz.
+        </p>
+      </div>
 
       <div class="updates-thingy">
         <p class="update-date">AWIPS System Upgrade to Impact NWS Phoenix Services April 28–30 2025</p>
